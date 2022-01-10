@@ -1,11 +1,5 @@
 # django_dramatiq
 
-[![Build Status](https://travis-ci.org/Bogdanp/django_dramatiq.svg?branch=master)](https://travis-ci.org/Bogdanp/django_dramatiq)
-[![PyPI version](https://badge.fury.io/py/django-dramatiq.svg)](https://badge.fury.io/py/django-dramatiq)
-
-**django_dramatiq** is a Django app that integrates with [Dramatiq][dramatiq].
-
-
 ## Requirements
 
 * [Django][django] 1.11+
@@ -259,19 +253,3 @@ django.setup()
 
 Install the dev dependencies with `pipenv install --dev` and then run
 `pipenv run tox`.
-
-
-## License
-
-django_dramatiq is licensed under Apache 2.0.  Please see
-[LICENSE][license] for licensing details.
-
-[django]: http://djangoproject.com/
-[dramatiq]: https://github.com/Bogdanp/dramatiq
-[example]: https://github.com/Bogdanp/django_dramatiq_example
-[license]: https://github.com/Bogdanp/django_dramatiq/blob/master/LICENSE
-[pipenv]: https://docs.pipenv.org
-[pytest-django]: https://pytest-django.readthedocs.io/en/latest/index.html
-[stubbroker]: https://dramatiq.io/reference.html#dramatiq.brokers.stub.StubBroker
-[django-configurations]: https://github.com/jazzband/django-configurations/
-[transactiontestcase]: https://docs.djangoproject.com/en/dev/topics/testing/tools/#django.test.TransactionTestCase
